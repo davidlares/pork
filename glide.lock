@@ -1,0 +1,168 @@
+hash: 12fe514a574b022373acf0c630ac297bc27c624ca6bae4f932f8f2bae429fbec
+updated: 2020-05-01T12:12:36.425285532-05:00
+imports:
+- name: github.com/davidlares/nap
+  version: c7818344b38ef21234082efb10ab0120c20f5213
+- name: github.com/emirpasic/gods
+  version: 80e934ed68b9084f386ae25f74f839aaecfb54d8
+  subpackages:
+  - containers
+  - lists
+  - lists/arraylist
+  - trees
+  - trees/binaryheap
+  - utils
+- name: github.com/fsnotify/fsnotify
+  version: 7f4cf4dd2b522a984eaca51d1ccee54101d3414a
+- name: github.com/hashicorp/hcl
+  version: 569ae818ccb3cf7a7192e329771f8f940feecbba
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/jbenet/go-context
+  version: d14ea06fba99483203c19d92cfcd13ebe73135f4
+  subpackages:
+  - io
+- name: github.com/kevinburke/ssh_config
+  version: 01f96b0aa0cdcaa93f9495f89bbc6cb5a992ce6e
+- name: github.com/magiconair/properties
+  version: a586bb8b7deaae2a0eb4c6c8b63a539425628137
+- name: github.com/mitchellh/go-homedir
+  version: af06845cf3004701891bf4fdb884bfe4920b3727
+- name: github.com/mitchellh/mapstructure
+  version: 916b5f23bc2f603eb9012f48efd9e38287e71ed5
+- name: github.com/pelletier/go-toml
+  version: 2b8e33f5039358ee5baf28ccd55ba059f4989d7b
+- name: github.com/sergi/go-diff
+  version: 58c5cb1602ee9676b5d3590d782bedde80706fcc
+  subpackages:
+  - diffmatchpatch
+- name: github.com/spf13/afero
+  version: c17d29330031aab335093fc53ac2060eb6d5701d
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 1ffadf551085444af981432dd0f6d1160c11ec64
+- name: github.com/spf13/cobra
+  version: a684a6d7f5e37385d954dd3b5a14fc6912c6ab9d
+- name: github.com/spf13/jwalterweatherman
+  version: 94f6ae3ed3bceceafa716478c5fbf8d29ca601a1
+- name: github.com/spf13/pflag
+  version: 2e9d26c8c37aae03e3f9d4e90b7116f5accb7cab
+- name: github.com/spf13/viper
+  version: 59b19175035095196a623aac8d0f5c83481f3d77
+- name: github.com/src-d/gcfg
+  version: 1ac3a1ac202429a54835fe8408a92880156b489d
+  subpackages:
+  - scanner
+  - token
+  - types
+- name: github.com/subosito/gotenv
+  version: de67a6614a4de71ad5e380b6946e56ab957d58c5
+- name: github.com/xanzy/ssh-agent
+  version: 6a3e2ff9e7c564f36873c2e36413f634534f1c44
+- name: golang.org/x/crypto
+  version: 4b2356b1ed79e6be3deca3737a3db3d132d2847a
+  subpackages:
+  - blowfish
+  - cast5
+  - chacha20
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - internal/subtle
+  - openpgp
+  - openpgp/armor
+  - openpgp/elgamal
+  - openpgp/errors
+  - openpgp/packet
+  - openpgp/s2k
+  - poly1305
+  - ssh
+  - ssh/agent
+  - ssh/internal/bcrypt_pbkdf
+  - ssh/knownhosts
+- name: golang.org/x/net
+  version: e0ff5e5a1de5b859e2d48a2830d7933b3ab5b75f
+  subpackages:
+  - context
+  - internal/socks
+  - proxy
+- name: golang.org/x/sys
+  version: bc7a7d42d5c30f4d0fe808715c002826ce2c624e
+  subpackages:
+  - cpu
+  - internal/unsafeheader
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: afb9336c4530b4b18f37130eab53f245f7d6821e
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/ini.v1
+  version: 39bc4ddcb8b9d0100f7a040816380ccda878b94a
+- name: gopkg.in/src-d/go-billy.v4
+  version: 780403cfc1bc95ff4d07e7b26db40a6186c5326e
+  subpackages:
+  - helper/chroot
+  - helper/polyfill
+  - osfs
+  - util
+- name: gopkg.in/src-d/go-git.v4
+  version: 0d1a009cbb604db18be960db5f1525b99a55d727
+  subpackages:
+  - config
+  - internal/revision
+  - internal/url
+  - plumbing
+  - plumbing/cache
+  - plumbing/filemode
+  - plumbing/format/config
+  - plumbing/format/diff
+  - plumbing/format/gitignore
+  - plumbing/format/idxfile
+  - plumbing/format/index
+  - plumbing/format/objfile
+  - plumbing/format/packfile
+  - plumbing/format/pktline
+  - plumbing/object
+  - plumbing/protocol/packp
+  - plumbing/protocol/packp/capability
+  - plumbing/protocol/packp/sideband
+  - plumbing/revlist
+  - plumbing/storer
+  - plumbing/transport
+  - plumbing/transport/client
+  - plumbing/transport/file
+  - plumbing/transport/git
+  - plumbing/transport/http
+  - plumbing/transport/internal/common
+  - plumbing/transport/server
+  - plumbing/transport/ssh
+  - storage
+  - storage/filesystem
+  - storage/filesystem/dotgit
+  - storage/memory
+  - utils/binary
+  - utils/diff
+  - utils/ioutil
+  - utils/merkletrie
+  - utils/merkletrie/filesystem
+  - utils/merkletrie/index
+  - utils/merkletrie/internal/frame
+  - utils/merkletrie/noder
+- name: gopkg.in/warnings.v0
+  version: ec4a0fea49c7b46c2aeb0b51aac55779c607e52b
+- name: gopkg.in/yaml.v2
+  version: 53403b58ad1b561927d19068c655246f2db79d48
+testImports: []

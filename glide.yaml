@@ -1,0 +1,9 @@
+package: github.com/davidlares/pork
+import:
+- package: github.com/spf13/cobra
+  version: v1.0.0
+- package: gopkg.in/src-d/go-git.v4
+  version: ^4.13.1
+- package: github.com/spf13/viper
+  version: ^1.6.3
+- package: github.com/davidlares/nap
