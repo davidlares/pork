@@ -45,7 +45,40 @@ For help: `pork -help`
 
 ## Commands
 
-Soon.
+### Clone functionality
+
+The `clone` downloads a copy of a selecting repository to your local machine. The location is given by the `location` key set in the `pork.yaml`.
+
+Internally expects 2 flags or sub-commands
+
+1. The `--create` flag: will create a reference if not found
+2. The `--ref` flag: will specify the `branch name` for the downloaded repository
+
+Both of them are required
+
+It's done like this: `pork clone davidlares/arp-spoofing --create --ref master`
+
+### Fork functionality
+
+The `fork` command actually generates and reference a copy of a target repository into your Github account. This one uses the `/repos/<OWNER>/<REPOSITORY>/forks` API Endpoint.
+
+This is done like this: `pork fork yeyintminthuhtut/Awesome-Red-Teaming`
+
+### Docs functionality
+
+The `docs` command asks for `README` files using the `/repos/<OWNER>/<REPOSITORY>/readme` GitHub API endpoint. You will need to call this option like this
+
+`pork docs davidlares/arp-spoofing`
+
+
+### Search functionality
+
+The `search` command will actually send a `query` parameter to the `/search/repositories?q=<YOUR-SEARCH-CRITERIA>` GitHub API endpoint. This command will return a bunch of public repositories with the `owner/repository` format (actually it's a Go Slice element).
+
+Here's an example of how to use it.
+
+`pork search infosec` or `pork search topic:infosec`. Basically, anything that can be set up as a `query` criteria
+
 
 ## Running tests
 

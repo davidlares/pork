@@ -42,5 +42,5 @@ func CloneRepository(repository, ref string, shouldCreate bool) error {
 func init() {
   // config options flags
   CloneCmd.PersistentFlags().StringVar(&ref, "ref", "master", "specific reference to check out") // master by default
-  CloneCmd.PersistentFlags().BoolVar(&create, "create", false, "create the referece if it does not exits")
+  CloneCmd.PersistentFlags().BoolVar(&create, "create", false, "create the reference if it does not exists")
 }
