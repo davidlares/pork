@@ -70,6 +70,15 @@ The `docs` command asks for `README` files using the `/repos/<OWNER>/<REPOSITORY
 
 `pork docs davidlares/arp-spoofing`
 
+## PRs functionalities
+
+We are also able to generate `pull requests` to any public repository. Internally creates a `POST` request to the `/repos/<OWNER>/<PROJECT>/pulls` GitHub API endpoint with certain values that points to the `destination repository`, the `source repository` a `title` and a `message`
+
+Here's an example
+
+`pork pullrequest -d davidlares/arp-spoofing -t "This is my title" -m "This is my message" -s "davidlares:changes"`
+
+The `source` repository it's a combination of the `owner:branch`
 
 ### Search functionality
 
@@ -78,7 +87,6 @@ The `search` command will actually send a `query` parameter to the `/search/repo
 Here's an example of how to use it.
 
 `pork search infosec` or `pork search topic:infosec`. Basically, anything that can be set up as a `query` criteria
-
 
 ## Running tests
 
