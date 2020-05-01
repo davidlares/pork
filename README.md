@@ -70,7 +70,7 @@ The `docs` command asks for `README` files using the `/repos/<OWNER>/<REPOSITORY
 
 `pork docs davidlares/arp-spoofing`
 
-## PRs functionalities
+### PRs functionalities
 
 We are also able to generate `pull requests` to any public repository. Internally creates a `POST` request to the `/repos/<OWNER>/<PROJECT>/pulls` GitHub API endpoint with certain values that points to the `destination repository`, the `source repository` a `title` and a `message`
 
