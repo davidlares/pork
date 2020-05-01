@@ -10,7 +10,7 @@ Check the `glide.yaml` file for it. For this project, we use four main dependenc
 
 1. The `NAP` library (explained below) as the HTTP wrapper encapsulation for Rest API's interactions.
 2. `Viper` for handling configurations options for files. Check the library [here](https://github.com/spf13/viper)
-3. `Cobra` is used for CLI apps generation. Check the library [here])(https://github.com/spf13/cobra)
+3. `Cobra` is used for CLI apps generation. Check the library [here](https://github.com/spf13/cobra)
 4. `gopkg.in/src-d/go-git.v4` this one is a Git implementation for Go. Check it [here](https://gopkg.in/src-d/go-git.v4)
 
 ### NAP Library
